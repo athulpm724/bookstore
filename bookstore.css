@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+h1{
+    font-family: 'Roboto';
+    font-size:60px;
+    color: white;
+}
+
+.home a,form{
+    font-family: 'Poppins';
+    font-size: 20px;
+    color: white;
+}
+
+.home a:hover{
+    text-shadow: 0px 0px 25px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+    flex-direction: column;
+}
+
+.home , .fm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid black;
+    width: 400px;
+    height: 500px;
+    gap: 20px;
+    background-color: black;
+    box-shadow: 5px 5px 40px;
+    transition: ease-in-out 0.5s;
+}
+
+.home:hover{
+    box-shadow: 5px 5px 20px;
+}
+
+.fm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+form{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+
+input{
+    width: 300px;
+    height: 25px;
+    border-radius: 0.2rem;
+    background-color: transparent;
+    border: solid 2px white;
+    color:white;
+}
+
+button{
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    border: solid white 2px;
+    color: white;
+}
+
+.search{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    gap:20px;
+}
+
+
+#sfm{
+    height: 600px;
+}
